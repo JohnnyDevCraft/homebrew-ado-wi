@@ -1,10 +1,10 @@
 class AdoWi < Formula
   desc "STARC Azure DevOps work item export tool"
   homepage "https://github.com/JohnnyDevCraft/ado-wi"
-  url "https://github.com/JohnnyDevCraft/ado-wi/releases/download/v0.1.1/ado-wi-0.1.1.tar.gz"
-  sha256 "5043c8686b60272e0c22e7cb1f6f3dd5034de027a190921e62b064d7aba81fdd"
+  url "https://github.com/JohnnyDevCraft/ado-wi/releases/download/v0.1.2/ado-wi-0.1.2.tar.gz"
+  sha256 "979a7b032bfe62b53a118fa26a96ba47782715c25bfff20d23cf2a9454e52f21"
   license "MIT"
-  version "0.1.1"
+  version "0.1.2"
 
   depends_on "dotnet" => :build
 
@@ -15,6 +15,6 @@ class AdoWi < Formula
 
   test do
     output = shell_output("#{bin}/ado-wi --version")
-    assert_match "0.1.1", output
+    assert_match "0.1.2", output
   end
 end
