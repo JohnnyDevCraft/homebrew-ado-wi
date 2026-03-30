@@ -1,8 +1,8 @@
 class AdoWi < Formula
   desc "STARC Azure DevOps work item export tool"
   homepage "https://github.com/JohnnyDevCraft/ado-wi"
-  url "file:///Users/john/Source/repos/xelseor/workitems/dist/ado-wi-0.1.0.tar.gz"
-  sha256 "a8af244f668b4690adfdff84f1f5f533ba714014a53d58effaad032388428fd6"
+  url "https://github.com/JohnnyDevCraft/ado-wi/releases/download/v0.1.0/ado-wi-0.1.0.tar.gz"
+  sha256 "0f52a8625753c46a4016a7f6705767184eb72362d4ee9572027586d3db328d7f"
   license "MIT"
   version "0.1.0"
 
